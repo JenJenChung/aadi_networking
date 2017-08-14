@@ -1,8 +1,7 @@
 <!--
   Works with aadi_networking/aadi_hub.launch.
 
-  This one does not use zeroconf to assist with discovery of the hub.
-  Use the /gateway/connect_hub service to provide a uri for connection.
+  Uses zeroconf to assist with discovery of the hub.
 -->
 <launch>
   <arg name="gateway_name" default="$(env HOSTNAME)_gateway"/>
