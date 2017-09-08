@@ -2,6 +2,6 @@
     <launch title="hub:11311" package="aadi_networking" name="aadi_hub.launch" port="11311">
     </launch>
     <launch title="gate:11312" package="aadi_networking" name="aadi_gateway.launch" port="11312">
-        <arg name="gateway_name" value="Hub Gateway"/>
+        <arg name="gateway_name" value="Hub_Gateway"/>
     </launch>
 </concert>
